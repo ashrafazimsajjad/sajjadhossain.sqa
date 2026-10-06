@@ -151,7 +151,7 @@ export default function Portfolio() {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
-  async function handleContactSubmit(event: React.FormEvent<HTMLFormElement>) {
+  async function handleContactSubmit(event) {
     event.preventDefault();
     setFormStatus("Saving...");
 

@@ -1,6 +1,6 @@
 # Sajjad Hossain — QA Engineer Portfolio
 
-A responsive dark-themed portfolio built with Next.js, TypeScript, Tailwind CSS and Framer Motion.
+A responsive dark-themed portfolio built with Next.js, JavaScript, Tailwind CSS and Framer Motion.
 
 ## Run locally
 
@@ -13,7 +13,7 @@ Open http://localhost:3000
 
 ## Customize
 
-Edit `components/Portfolio.tsx` to update:
+Edit `components/Portfolio.jsx` to update:
 - Name / headline
 - Skills
 - Projects

@@ -2,11 +2,11 @@ import { appendFile, mkdir } from "node:fs/promises";
 import path from "node:path";
 import { NextResponse } from "next/server";
 
-function escapeCsv(value: string) {
+function escapeCsv(value) {
   return `"${value.replace(/"/g, '""').replace(/\r?\n/g, " ")}"`;
 }
 
-export async function POST(request: Request) {
+export async function POST(request) {
   const body = await request.json().catch(() => null);
   const name = typeof body?.name === "string" ? body.name.trim() : "";
   const email = typeof body?.email === "string" ? body.email.trim() : "";

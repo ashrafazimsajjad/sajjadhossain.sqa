@@ -3,7 +3,7 @@
 import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 import {
-  ArrowUp, BookOpen, CheckCircle2, Code2, ExternalLink, Github,
+  ArrowUp, BookOpen, CheckCircle2, Code2, Download, ExternalLink, Github,
   Linkedin, Mail, Menu, Phone, ShieldCheck, Smartphone, Gauge, GitBranch, X
 } from "lucide-react";
 
@@ -215,8 +215,8 @@ export default function Portfolio() {
               API validation and performance testing — with a strong focus on FinTech and payment systems.
             </p>
             <div className="mt-8 flex flex-wrap gap-3">
-              <a href="mailto:ashrafazimsajjad@gmail.com?subject=Resume%20Request" className="inline-flex items-center gap-2 rounded-xl bg-cyan-300 px-5 py-3 font-semibold text-slate-950 hover:bg-cyan-200">
-                <Mail className="h-4 w-4" /> Request Resume
+              <a href="/resume.pdf" download className="inline-flex items-center gap-2 rounded-xl bg-cyan-300 px-5 py-3 font-semibold text-slate-950 hover:bg-cyan-200">
+                <Download className="h-4 w-4" /> Download Resume
               </a>
               <a href="https://github.com/ashrafazimsajjad" target="_blank" className="inline-flex items-center gap-2 rounded-xl border border-white/10 px-5 py-3 font-semibold hover:bg-white/5">
                 <Github className="h-4 w-4" /> GitHub

@@ -21,11 +21,9 @@ Edit `components/Portfolio.jsx` to update:
 - GitHub and LinkedIn URLs
 - Email
 
-The public repository does not include the current resume PDF because it contains a reference's contact details. To enable a direct resume download, add a redacted PDF at:
+The portfolio's **Download Resume** button serves the redacted CV from:
 
 `public/resume.pdf`
-
-Remove the `public/resume.pdf` entry from `.gitignore` after adding the redacted version. Until then, the **Request Resume** button lets visitors email you.
 
 ## Deploy
 

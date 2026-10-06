@@ -215,7 +215,7 @@ export default function Portfolio() {
               API validation and performance testing — with a strong focus on FinTech and payment systems.
             </p>
             <div className="mt-8 flex flex-wrap gap-3">
-              <a href="/resume.pdf" download className="inline-flex items-center gap-2 rounded-xl bg-cyan-300 px-5 py-3 font-semibold text-slate-950 hover:bg-cyan-200">
+              <a href="/sajjad_hossain_sqa_resume.pdf" download className="inline-flex items-center gap-2 rounded-xl bg-cyan-300 px-5 py-3 font-semibold text-slate-950 hover:bg-cyan-200">
                 <Download className="h-4 w-4" /> Download Resume
               </a>
               <a href="https://github.com/ashrafazimsajjad" target="_blank" className="inline-flex items-center gap-2 rounded-xl border border-white/10 px-5 py-3 font-semibold hover:bg-white/5">

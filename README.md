@@ -23,7 +23,7 @@ Edit `components/Portfolio.jsx` to update:
 
 The portfolio's **Download Resume** button serves the redacted CV from:
 
-`public/resume.pdf`
+`public/sajjad_hossain_sqa_resume.pdf`
 
 ## Deploy
 
